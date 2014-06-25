@@ -1,0 +1,54 @@
+/* line 1, sass/style.scss */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #eaeaea url(../img/bg.png);
+}
+
+/* line 6, sass/style.scss */
+.row.main {
+  margin-top: 40px;
+}
+/* line 8, sass/style.scss */
+.row.main .panel {
+  -webkit-box-shadow: 0px 0px 23px 0px rgba(124, 124, 124, 0.68);
+  -moz-box-shadow: 0px 0px 23px 0px rgba(124, 124, 124, 0.68);
+  box-shadow: 0px 0px 23px 0px rgba(124, 124, 124, 0.68);
+}
+
+/* line 16, sass/style.scss */
+.primary-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: 0em;
+  line-height: 1.4;
+}
+
+/* line 32, sass/style.scss */
+.my-btn {
+  text-transform: uppercase;
+}
+
+/* line 36, sass/style.scss */
+.contact-btns {
+  font-size: 150%;
+}
+/* line 38, sass/style.scss */
+.contact-btns a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 64px;
+}
+/* line 43, sass/style.scss */
+.contact-btns a img {
+  margin-right: 10px;
+}
+/* line 46, sass/style.scss */
+.contact-btns a:hover {
+  text-decoration: underline;
+}
