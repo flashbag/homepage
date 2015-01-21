@@ -1,7 +1,7 @@
 /* line 1, sass/style.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #eaeaea url(../img/bg.png);
+  background: #111111 url(../img/bg.jpg) repeat-x fixed top center;
 }
 
 /* line 6, sass/style.scss */

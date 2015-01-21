@@ -7,8 +7,10 @@ $(document).ready(function(){
 	//   "imageSize": 32
 	// });
 
-	$('.si').mouseover(function(){
-		$(this).animate({width: '140px'
+    var $si = $('.si');
+
+	$si.mouseover(function(){
+		$(this).animate({width: '160px'
 			// , height: '60px'
 			// , 'margin-top': '4px'
 		}, 500,function(){
@@ -19,7 +21,7 @@ $(document).ready(function(){
 		});
 	});
 
-	$('.si').mouseleave(function(){
+	$si.mouseleave(function(){
 		$(this).animate({width: "125px"
 			// , height: '64px'
 		}, 200);
